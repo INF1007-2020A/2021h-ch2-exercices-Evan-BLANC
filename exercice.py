@@ -3,8 +3,8 @@
 def majuscule(mot):
     # TODO completer la fonction ici
     result = ""
-    for i in range(len(mot)):
-        result += chr(ord(mot[i]) - 32)
+    for j in range(len(mot)):
+        result += chr(ord(mot[j]) - 32)
     return result
 
 
